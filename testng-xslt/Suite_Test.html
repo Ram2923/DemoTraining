@@ -1,0 +1,1184 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               Test case
+               
+               <b>Test</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">3</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">4</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">75%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">1m
+               7s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"
+                   checked=""></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"
+                   checked=""></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"
+                checked=""></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testcases.CruiseDetails_verifyCruiseDetails_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.CruiseDetails_verifyCruiseDetails_byStatus_failed_FAIL1_details')">verifyCruiseDetails()</a>
+               </td>
+               <td nowrap="true">00:34:19</td>
+               <td nowrap="true" align="right">20s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('testcases.CruiseDetails_verifyCruiseDetails_byStatus_failed_FAIL1_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"xpath","selector":"//a[text='Cruises']"}  (Session info: chrome=68.0.3440.106)
+                     (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)Command duration or timeout: 20.08 secondsFor documentation on this
+                     error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '2.53.1', revision: 'a36b8b1',
+                     time: '2016-06-30 17:37:09'System info: host: 'DESKTOP-GQ5M48D', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64',
+                     os.version: '10.0', java.version: '9.0.4'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities [{applicationCacheEnabled=false,
+                     rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),
+                     userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir9124_32429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false,
+                     handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true,
+                     acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome,
+                     takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]Session
+                     ID: 9879edb6a936a040f29edf2e3e722513*** Element info: {Using=xpath, value=//a[text='Cruises']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.CruiseDetails_verifyCruiseDetails_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyCruiseDetails
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyCruiseDetails()[pri:0, instance:testcases.CruiseDetails@1eb5174b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:19
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:39
+                     </div>
+                     <div>
+                        <b>Duration: </b>20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.CruiseDetails_verifyCruiseDetails_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text='Cruises']"}
+                        (Session info: chrome=68.0.3440.106)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows
+                        NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 20.08 secondsFor
+                        documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '2.53.1',
+                        revision: 'a36b8b1', time: '2016-06-30 17:37:09'System info: host: 'DESKTOP-GQ5M48D', ip: '192.168.137.1', os.name: 'Windows
+                        10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities
+                        [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522
+                        (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir9124_32429}, takesHeapSnapshot=true,
+                        pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP,
+                        browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true,
+                        webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true,
+                        unexpectedAlertBehaviour=}]Session ID: 9879edb6a936a040f29edf2e3e722513*** Element info: {Using=xpath, value=//a[text='Cruises']}at
+                        java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown
+                        Source)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.base/java.lang.reflect.Constructor.newInstance(Unknown
+                        Source)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)at
+                        org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)at
+                        org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)at org.openqa.selenium.By$ByXPath.findElement(By.java:361)at
+                        org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at
+                        org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at com.sun.proxy.$Proxy11.click(Unknown
+                        Source)at pom.HomePage.clickCruiseLink(HomePage.java:76)at testcases.CruiseDetails.verifyCruiseDetails(CruiseDetails.java:14)at
+                        java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown
+                        Source)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.base/java.lang.reflect.Method.invoke(Unknown
+                        Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at
+                        org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at
+                        org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at
+                        org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at
+                        org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at
+                        org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at
+                        org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at
+                        org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at
+                        org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="testcases.CruiseDetails_launchChromeBrowser_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.CruiseDetails_launchChromeBrowser_byStatus_passed_PASS1_details')">launchChromeBrowser()</a>
+               </td>
+               <td nowrap="true">00:34:11</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.CruiseDetails_launchChromeBrowser_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>launchChromeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>launchChromeBrowser()[pri:0, instance:testcases.CruiseDetails@1eb5174b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:19
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.CruiseDetails_closeBrowser_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.CruiseDetails_closeBrowser_byStatus_passed_PASS2_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">00:34:39</td>
+               <td nowrap="true" align="right">250 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.CruiseDetails_closeBrowser_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.CruiseDetails@1eb5174b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:39
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:39
+                     </div>
+                     <div>
+                        <b>Duration: </b>250 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.VerifyPageTitle_launchChromeBrowser_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.VerifyPageTitle_launchChromeBrowser_byStatus_passed_PASS3_details')">launchChromeBrowser()</a>
+               </td>
+               <td nowrap="true">00:34:03</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.VerifyPageTitle_launchChromeBrowser_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>launchChromeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>launchChromeBrowser()[pri:0, instance:testcases.VerifyPageTitle@79da8dc5]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:03
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.VerifyPageTitle_verifyPageTitle_byStatus_passed_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.VerifyPageTitle_verifyPageTitle_byStatus_passed_PASS4_details')">verifyPageTitle()</a>
+               </td>
+               <td nowrap="true">00:34:11</td>
+               <td nowrap="true" align="right">26 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.VerifyPageTitle_verifyPageTitle_byStatus_passed_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyPageTitle
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyPageTitle()[pri:0, instance:testcases.VerifyPageTitle@79da8dc5]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>26 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.VerifyPageTitle_closeBrowser_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.VerifyPageTitle_closeBrowser_byStatus_passed_PASS5_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">00:34:11</td>
+               <td nowrap="true" align="right">240 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.VerifyPageTitle_closeBrowser_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.VerifyPageTitle@79da8dc5]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>240 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.LoignToTheApplication_launchChromeBrowser_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.LoignToTheApplication_launchChromeBrowser_byStatus_passed_PASS6_details')">launchChromeBrowser()</a>
+               </td>
+               <td nowrap="true">00:33:50</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.LoignToTheApplication_launchChromeBrowser_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>launchChromeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>launchChromeBrowser()[pri:0, instance:testcases.LoignToTheApplication@c333c60]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:33:50
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:00
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.LoignToTheApplication_login_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.LoignToTheApplication_login_byStatus_passed_PASS7_details')">login()</a>
+               </td>
+               <td nowrap="true">00:34:00</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.LoignToTheApplication_login_byStatus_passed_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login
+                     </div>
+                     <div>
+                        <b>Signature: </b>login()[pri:0, instance:testcases.LoignToTheApplication@c333c60]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:00
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.LoignToTheApplication_closeBrowser_byStatus_passed_PASS8_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.LoignToTheApplication_closeBrowser_byStatus_passed_PASS8_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">00:34:03</td>
+               <td nowrap="true" align="right">239 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.LoignToTheApplication_closeBrowser_byStatus_passed_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.LoignToTheApplication@c333c60]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:03
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>239 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.RegisterUser_launchChromeBrowser_byStatus_passed_PASS9_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.RegisterUser_launchChromeBrowser_byStatus_passed_PASS9_details')">launchChromeBrowser()</a>
+               </td>
+               <td nowrap="true">00:33:32</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.RegisterUser_launchChromeBrowser_byStatus_passed_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>launchChromeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>launchChromeBrowser()[pri:0, instance:testcases.RegisterUser@11bd0f3b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:33:32
+                     </div>
+                     <div>
+                        <b>End time: </b>00:33:41
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.RegisterUser_registerUser_byStatus_passed_PASS10_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.RegisterUser_registerUser_byStatus_passed_PASS10_details')">registerUser()</a>
+               </td>
+               <td nowrap="true">00:33:41</td>
+               <td nowrap="true" align="right">8s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.RegisterUser_registerUser_byStatus_passed_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>registerUser
+                     </div>
+                     <div>
+                        <b>Signature: </b>registerUser()[pri:0, instance:testcases.RegisterUser@11bd0f3b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:33:41
+                     </div>
+                     <div>
+                        <b>End time: </b>00:33:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>8s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.RegisterUser_closeBrowser_byStatus_passed_PASS11_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.RegisterUser_closeBrowser_byStatus_passed_PASS11_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">00:33:50</td>
+               <td nowrap="true" align="right">315 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.RegisterUser_closeBrowser_byStatus_passed_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.RegisterUser@11bd0f3b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:33:50
+                     </div>
+                     <div>
+                        <b>End time: </b>00:33:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>315 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">testcases.CruiseDetails</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testcases.CruiseDetails_launchChromeBrowser_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.CruiseDetails_launchChromeBrowser_byClass_PASS1_details')">launchChromeBrowser()</a>
+               </td>
+               <td nowrap="true">00:34:11</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.CruiseDetails_launchChromeBrowser_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>launchChromeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>launchChromeBrowser()[pri:0, instance:testcases.CruiseDetails@1eb5174b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:19
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.CruiseDetails_verifyCruiseDetails_byClass_FAIL2_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.CruiseDetails_verifyCruiseDetails_byClass_FAIL2_details')">verifyCruiseDetails()</a>
+               </td>
+               <td nowrap="true">00:34:19</td>
+               <td nowrap="true" align="right">20s
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('testcases.CruiseDetails_verifyCruiseDetails_byClass_FAIL2_exception')">org.openqa.selenium.NoSuchElementException: 
+                     no such element: Unable to locate element: {"method":"xpath","selector":"//a[text='Cruises']"}  (Session info: chrome=68.0.3440.106)
+                     (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.17134 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)Command duration or timeout: 20.08 secondsFor documentation on this
+                     error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '2.53.1', revision: 'a36b8b1',
+                     time: '2016-06-30 17:37:09'System info: host: 'DESKTOP-GQ5M48D', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64',
+                     os.version: '10.0', java.version: '9.0.4'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities [{applicationCacheEnabled=false,
+                     rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),
+                     userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir9124_32429}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false,
+                     handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP, browserConnectionEnabled=false, nativeEvents=true,
+                     acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome,
+                     takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]Session
+                     ID: 9879edb6a936a040f29edf2e3e722513*** Element info: {Using=xpath, value=//a[text='Cruises']}
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.CruiseDetails_verifyCruiseDetails_byClass_FAIL2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyCruiseDetails
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyCruiseDetails()[pri:0, instance:testcases.CruiseDetails@1eb5174b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:19
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:39
+                     </div>
+                     <div>
+                        <b>Duration: </b>20s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.CruiseDetails_verifyCruiseDetails_byClass_FAIL2_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text='Cruises']"}
+                        (Session info: chrome=68.0.3440.106)  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows
+                        NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 20.08 secondsFor
+                        documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '2.53.1',
+                        revision: 'a36b8b1', time: '2016-06-30 17:37:09'System info: host: 'DESKTOP-GQ5M48D', ip: '192.168.137.1', os.name: 'Windows
+                        10', os.arch: 'amd64', os.version: '10.0', java.version: '9.0.4'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities
+                        [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522
+                        (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\ADMIN\AppData\Local\Temp\scoped_dir9124_32429}, takesHeapSnapshot=true,
+                        pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=68.0.3440.106, platform=XP,
+                        browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true,
+                        webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true,
+                        unexpectedAlertBehaviour=}]Session ID: 9879edb6a936a040f29edf2e3e722513*** Element info: {Using=xpath, value=//a[text='Cruises']}at
+                        java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(Unknown
+                        Source)at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.base/java.lang.reflect.Constructor.newInstance(Unknown
+                        Source)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)at
+                        org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)at
+                        org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)at org.openqa.selenium.By$ByXPath.findElement(By.java:361)at
+                        org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)at
+                        org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)at com.sun.proxy.$Proxy11.click(Unknown
+                        Source)at pom.HomePage.clickCruiseLink(HomePage.java:76)at testcases.CruiseDetails.verifyCruiseDetails(CruiseDetails.java:14)at
+                        java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown
+                        Source)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.base/java.lang.reflect.Method.invoke(Unknown
+                        Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at
+                        org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at
+                        org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at
+                        org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at
+                        org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at
+                        org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at
+                        org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at
+                        org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at
+                        org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="testcases.CruiseDetails_closeBrowser_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.CruiseDetails_closeBrowser_byClass_PASS3_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">00:34:39</td>
+               <td nowrap="true" align="right">250 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.CruiseDetails_closeBrowser_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.CruiseDetails@1eb5174b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:39
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:39
+                     </div>
+                     <div>
+                        <b>Duration: </b>250 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">testcases.LoignToTheApplication</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testcases.LoignToTheApplication_launchChromeBrowser_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.LoignToTheApplication_launchChromeBrowser_byClass_PASS1_details')">launchChromeBrowser()</a>
+               </td>
+               <td nowrap="true">00:33:50</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.LoignToTheApplication_launchChromeBrowser_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>launchChromeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>launchChromeBrowser()[pri:0, instance:testcases.LoignToTheApplication@c333c60]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:33:50
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:00
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.LoignToTheApplication_login_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.LoignToTheApplication_login_byClass_PASS2_details')">login()</a>
+               </td>
+               <td nowrap="true">00:34:00</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.LoignToTheApplication_login_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login
+                     </div>
+                     <div>
+                        <b>Signature: </b>login()[pri:0, instance:testcases.LoignToTheApplication@c333c60]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:00
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.LoignToTheApplication_closeBrowser_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.LoignToTheApplication_closeBrowser_byClass_PASS3_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">00:34:03</td>
+               <td nowrap="true" align="right">239 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.LoignToTheApplication_closeBrowser_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.LoignToTheApplication@c333c60]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:03
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>239 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">testcases.RegisterUser</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testcases.RegisterUser_launchChromeBrowser_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.RegisterUser_launchChromeBrowser_byClass_PASS1_details')">launchChromeBrowser()</a>
+               </td>
+               <td nowrap="true">00:33:32</td>
+               <td nowrap="true" align="right">9s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.RegisterUser_launchChromeBrowser_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>launchChromeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>launchChromeBrowser()[pri:0, instance:testcases.RegisterUser@11bd0f3b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:33:32
+                     </div>
+                     <div>
+                        <b>End time: </b>00:33:41
+                     </div>
+                     <div>
+                        <b>Duration: </b>9s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.RegisterUser_registerUser_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.RegisterUser_registerUser_byClass_PASS2_details')">registerUser()</a>
+               </td>
+               <td nowrap="true">00:33:41</td>
+               <td nowrap="true" align="right">8s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.RegisterUser_registerUser_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>registerUser
+                     </div>
+                     <div>
+                        <b>Signature: </b>registerUser()[pri:0, instance:testcases.RegisterUser@11bd0f3b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:33:41
+                     </div>
+                     <div>
+                        <b>End time: </b>00:33:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>8s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.RegisterUser_closeBrowser_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.RegisterUser_closeBrowser_byClass_PASS3_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">00:33:50</td>
+               <td nowrap="true" align="right">315 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.RegisterUser_closeBrowser_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.RegisterUser@11bd0f3b]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:33:50
+                     </div>
+                     <div>
+                        <b>End time: </b>00:33:50
+                     </div>
+                     <div>
+                        <b>Duration: </b>315 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">testcases.VerifyPageTitle</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="testcases.VerifyPageTitle_launchChromeBrowser_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.VerifyPageTitle_launchChromeBrowser_byClass_PASS1_details')">launchChromeBrowser()</a>
+               </td>
+               <td nowrap="true">00:34:03</td>
+               <td nowrap="true" align="right">7s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.VerifyPageTitle_launchChromeBrowser_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>launchChromeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>launchChromeBrowser()[pri:0, instance:testcases.VerifyPageTitle@79da8dc5]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:03
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>7s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.VerifyPageTitle_verifyPageTitle_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.VerifyPageTitle_verifyPageTitle_byClass_PASS2_details')">verifyPageTitle()</a>
+               </td>
+               <td nowrap="true">00:34:11</td>
+               <td nowrap="true" align="right">26 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.VerifyPageTitle_verifyPageTitle_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>verifyPageTitle
+                     </div>
+                     <div>
+                        <b>Signature: </b>verifyPageTitle()[pri:0, instance:testcases.VerifyPageTitle@79da8dc5]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>26 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="testcases.VerifyPageTitle_closeBrowser_byClass_PASS3_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('testcases.VerifyPageTitle_closeBrowser_byClass_PASS3_details')">closeBrowser()</a>
+               </td>
+               <td nowrap="true">00:34:11</td>
+               <td nowrap="true" align="right">240 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="testcases.VerifyPageTitle_closeBrowser_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>closeBrowser
+                     </div>
+                     <div>
+                        <b>Signature: </b>closeBrowser()[pri:0, instance:testcases.VerifyPageTitle@79da8dc5]
+                     </div>
+                     <div>
+                        <b>Start time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>End time: </b>00:34:11
+                     </div>
+                     <div>
+                        <b>Duration: </b>240 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>
